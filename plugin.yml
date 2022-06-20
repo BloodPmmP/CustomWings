@@ -1,0 +1,23 @@
+name: Custom Wings
+main: Blood\Wings\Main
+author: Blood
+api: 4.0.0
+version: 1.0
+
+commands:
+  customwings:
+    permission: cmd.wings
+    description: Opens Custom Wings Menu
+
+  cw:
+    permission: cmd.wings.use
+    description: Opens Custom Wings Menu
+
+permissions:
+  cmd.wings:
+    default: op
+    description: Gives You Perms To Use customwings Command
+  
+  cmd.wings.use:
+    default: op
+    description: Gives You Perms To Use customwings Command
